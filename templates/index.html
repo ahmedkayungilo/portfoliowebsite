@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ahmed's Portfolio</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid navbar-nav">
+            <a href="" class="nav-item">Home</a>
+            <a href="" class="nav-item">About</a>
+            <a href="" class="nav-item">Portfolio</a>
+            <a href="" class="nav-item">Testimonials</a>
+            <button>Contact Me</button>
+        </div>
+    </nav>
+
+    <div class="container-fluid row mx-auto division">
+        <div class="col-lg-6">
+            <center>
+                <h1>Hi! I'm Ahmed.</h1>
+            <h2>
+                I'm a tech enthusiast with particular interests in web development, 
+                chatbots and Artificial Intelligence. I do almost everything with Python
+             </h2>
+            </center>
+            
+        </div>
+        <center class="col-lg-6">
+            <img src="{{url_for('static', filename='ahmed.jfif')}}" alt="" class = 'avatar-img'>
+        </center>
+    </div>
+
+    <div class="container-fluid mx-auto center">
+        <h1>Things I can do:</h1>
+        <div class="row division">
+            <div class="col-lg-4">
+                <h2>Web Development</h2>
+                <img src="{{url_for('static', filename='webdev.svg')}}" alt="">
+                <p>
+                    I develop web apps using the Flask framework.
+                     I am also comfortable with Django.
+                     For front-end development I am an avid Bootstrap fan.
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Chatbot Development</h2>
+                <img src="{{url_for('static', filename='chatbot.svg')}}" alt="">
+                <p>
+                    Using Rasa NLU framework, I develop chatbot solutions of all kinds ranging from small business virtual assistants to custom commercial chatbots for specific uses
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h2>AI & ML</h2>
+                <img src="{{url_for('static', filename='ai.svg')}}" alt="">
+                <p>
+                    I always like to train models that are able to outperform humans in whatever task they may be able to perform especially games. Tensorflow has a special place in my hear
+                </p>
+            </div>
+        </div>
+        <button class="portfolio-btn">VIEW PORTFOLIO</button>
+    </div>
+
+</body>
+
+<footer class="division" style="margin-bottom: 0px;">
+    <h2>SOCIALS</h2>
+    <div class="row">
+        <div class="col-md-6">
+
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-twitter"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href=""><i class="bi bi-github"></i></a>
+
+        </div>
+
+        <div class="col-md-6" style="text-align: end;">
+            <p>All rights reserved @2022</p>
+        </div>
+        
+        
+    </div>
+</footer>
+</html>

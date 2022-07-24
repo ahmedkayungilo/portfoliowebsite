@@ -1,0 +1,91 @@
+body{
+ background-color: #e4f4f1;  
+ margin: 0px; 
+}
+
+a,p{
+    text-decoration: none;
+    font-size: 25px;
+    color: #457f76;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    margin: 0;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 75px;
+    color: #2b554e;
+    font-family: 'Open Sans';
+    font-weight: 800;
+}
+
+h2{
+    font-size: 35px;
+    color: #457f76;
+    font-weight: lighter;
+    font-family: 'Open Sans';
+    font-weight: 500;
+}
+
+footer{
+    background-color: #2b554e;
+    color: #e4f4f1; 
+    
+}
+
+button{
+    padding: 0.7%;
+    width: fit-content;
+    height: fit-content;
+    background-color: #457f76;
+    color: #e4f4f1;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 25px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+footer h2, footer p{
+    color: #e4f4f1;
+}
+
+i{
+    font-size: 2rem;
+    color: #e4f4f1;
+    margin: 0px 1%;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    margin: 10% 0px;
+}
+
+
+.navbar{
+    margin-left: 30%;
+    padding: 3%;
+}
+
+.center{
+    text-align: center;
+}
+
+.division{
+    padding: 3%;
+    margin:3% 0px;
+}
+
+.portfolio-btn{
+    width: 60%;
+    font-weight: bold;
+}
+
+.avatar-img{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    margin: auto auto;
+}
